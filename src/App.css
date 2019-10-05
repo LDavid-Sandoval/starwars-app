@@ -1,0 +1,53 @@
+.title{
+    margin: 0;
+}
+.mar{
+    margin-bottom: 10px;
+}
+.link{
+    color:white;
+}
+.link:hover{
+    background-color: gray;
+    color:white;
+    text-decoration: none;
+}
+.cont{
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 990px) { 
+    .nav{
+        width: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 989px) { 
+    .cont{
+        width: 95%;
+    }
+    .nav{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .title{
+        font-size: 2.4rem;
+    }
+    .mar{
+        margin-top: 10px;
+    }
+}
+@media (max-width: 768px) { 
+    .title{
+        font-size: 2rem;
+    }
+}
+
+.formulario{
+    margin-left: 30px;
+}
